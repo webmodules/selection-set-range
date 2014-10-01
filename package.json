@@ -1,0 +1,34 @@
+{
+  "name": "selection-set-range",
+  "version": "1.0.0",
+  "description": "Sets the passed in `range` onto the given `selection`, removing any previous selection",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc --module commonjs --declaration index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webmodules/selection-set-range.git"
+  },
+  "keywords": [
+    "browser",
+    "dom",
+    "selection",
+    "range",
+    "set",
+    "remove",
+    "ranges",
+    "backward",
+    "forward",
+    "backwards"
+  ],
+  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webmodules/selection-set-range/issues"
+  },
+  "homepage": "https://github.com/webmodules/selection-set-range",
+  "devDependencies": {
+    "typescript": "~1.0.1"
+  }
+}
